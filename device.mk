@@ -33,6 +33,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
