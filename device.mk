@@ -124,3 +124,7 @@ PRODUCT_PACKAGES += \
 
 # Call proprietary blobs setup
 $(call inherit-product, vendor/xiaomi/olivelite/olivelite-vendor.mk)
+
+# Wifi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_cfg.dat
