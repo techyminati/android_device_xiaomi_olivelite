@@ -68,6 +68,15 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+# Properties
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
+
+# QCOM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
