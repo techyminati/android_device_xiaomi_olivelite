@@ -20,6 +20,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default
+
 #CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
