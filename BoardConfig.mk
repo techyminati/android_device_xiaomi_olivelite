@@ -31,7 +31,6 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # AVB
-# AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
