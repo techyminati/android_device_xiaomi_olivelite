@@ -92,6 +92,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # VNDK
 BOARD_VNDK_VERSION := current
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
