@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.light@2.0-service.xiaomi_olive
 LOCAL_MODULE_TAGS  := optional
 
-LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_EXTRA_VNDK_VERSIONS)/bin
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_STEM := android.hardware.light@2.0-service
 
