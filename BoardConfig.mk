@@ -129,7 +129,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/olivelite
 TARGET_KERNEL_CONFIG := olivelite_defconfig
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivelite
+TARGET_OTA_ASSERT_DEVICE := olivelite,olivewood,olive
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
