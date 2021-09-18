@@ -30,10 +30,10 @@ PRODUCT_NAME := lineage_olivelite
 PRODUCT_MODEL := Redmi 8A
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="olivelite-user 10 QKQ1.191014.001 V12.0.2.0.QCPINXM release-keys" \
+    PRIVATE_BUILD_DESC="olivelite-user 10 QKQ1.191014.001 V12.5.1.0.QCPINXM release-keys" \
     PRODUCT_NAME="olivelite" \
     TARGET_DEVICE="olivelite"
 
-BUILD_FINGERPRINT := Xiaomi/olivelite/olivelite:10/QKQ1.191014.001/V12.0.2.0.QCPINXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/olivelite/olivelite:10/QKQ1.191014.001/V12.5.1.0.QCPINXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
