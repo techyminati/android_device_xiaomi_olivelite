@@ -119,4 +119,4 @@ PRODUCT_PACKAGES += \
     vndk_package
 
 # Call proprietary blobs setup
-$(call inherit-product-if-exists, vendor/xiaomi/olivelite/olivelite-vendor.mk)
+$(call inherit-product, vendor/xiaomi/olivelite/olivelite-vendor.mk)
