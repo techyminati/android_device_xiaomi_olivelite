@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
+# The first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Device-specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
