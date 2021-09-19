@@ -164,7 +164,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/temp
 # VNDK
 BOARD_VNDK_VERSION := current
 TARGET_COPY_OUT_PRODUCT := system/product
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Inherit proprietary version
 -include vendor/xiaomi/olivelite/BoardConfigVendor.mk
