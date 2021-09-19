@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # Device-specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
