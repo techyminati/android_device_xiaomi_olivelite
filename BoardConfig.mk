@@ -99,6 +99,9 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
