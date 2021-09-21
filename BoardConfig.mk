@@ -134,6 +134,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/olivelite
 TARGET_KERNEL_CONFIG := olivelite_defconfig
+BOARD_KERNEL_SEPARATED_DTBO := true
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := olivelite,olivewood,olive
